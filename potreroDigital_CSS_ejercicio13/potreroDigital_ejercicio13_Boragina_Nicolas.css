@@ -1,0 +1,20 @@
+.titulos{
+  color: red;
+  background-color: rgb(0, 0, 255);
+}
+
+p{
+  font-size: 16px;
+}
+
+.titulos2{
+  color: #00FF00;
+}
+
+#sub2{
+  font-style: italic;
+}
+
+#prueba{
+  font-family: helvetica;
+}

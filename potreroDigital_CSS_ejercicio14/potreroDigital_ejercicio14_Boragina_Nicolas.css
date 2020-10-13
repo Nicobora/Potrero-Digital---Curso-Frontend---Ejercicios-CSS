@@ -1,0 +1,28 @@
+div{
+  background-color: red;
+  width: 300px;
+  height: 20vh;
+  border:black solid;
+  margin:4px 3%;
+  padding: 0;
+}
+@media screen and (max-width:1280px){
+  div{
+    border:dashed;
+    background-color: green;
+    width: 20%;
+    height: 100px;
+    margin: 10px 6%;
+    padding: 2.25px;
+  }
+}
+@media screen and (max-width:360px){
+  div{
+    border:#CB3234 solid;
+    background-color: green;
+    width: 20%;
+    height: 100px;
+    margin:0;
+    padding-right: 9px
+  }
+}

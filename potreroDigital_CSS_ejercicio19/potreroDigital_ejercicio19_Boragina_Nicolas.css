@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  display: flex;
+}
+
+body{
+  justify-content:center;
+  flex-wrap: wrap;
+  width: 100%;
+  height:100vh;
+  font-family: Arial;
+}
+
+.caja1{
+  flex-direction: column;
+  width: 50%;
+  height: 70vh;
+}
+
+h1{
+  height: 10vh;
+}
+
+h3{
+  margin-right: 50px;
+  font-style: italic;
+}
+
+header{
+  flex-direction: column;
+}
+
+section{
+  height: 50%;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+img{
+  width: 50%;
+  height: 70%;
+  justify-content:flex-end;
+}
+footer{
+  height: 30%;
+  padding-top: 50px;
+}
